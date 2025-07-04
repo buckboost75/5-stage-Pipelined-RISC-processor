@@ -9,8 +9,8 @@ Design  a  5-stage pipeline  RISC  processor(with  hazard detection and data for
 0016 NAND reg9, reg7, reg8          
 
 Initialize the register file with the following data 
-reg1 = AABB                reg2 = 5                 
-reg4 = 01034               reg5 = BACC1                
+reg1 = AABB      reg2 = 5                 
+reg4 = 01034     reg5 = BACC1                
 reg7 = 101ED
 <img width="418" alt="image" src="https://github.com/user-attachments/assets/a40ed78b-7b2d-4401-822f-d6316d1756ae" />
 
