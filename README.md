@@ -1,12 +1,12 @@
 # 5-stage-Pipelined-RISC-processor
 
-Design  a  5-stage pipeline  RISC  processor(with  hazard detection and data forwarding unit as necessary) that can execute the following instructions: 
+Design  a  5-stage pipeline  RISC  processor(with  hazard detection and data forwarding unit ) that can execute the following instructions: 
 
-0000 SW reg1, 3(reg2) 
-0004 ADD reg3, reg1, reg4 
-0008 OR reg6, reg3, reg5 
-0012 SUBI reg8, reg3, 2400 
-0016 NAND reg9, reg7, reg8 
+0000 SW reg1, 3(reg2)      
+0004 ADD reg3, reg1, reg4          
+0008 OR reg6, reg3, reg5          
+0012 SUBI reg8, reg3, 2400         
+0016 NAND reg9, reg7, reg8          
 
 Initialize the register file with the following data 
 reg1 = AABB         reg2 = 5 
